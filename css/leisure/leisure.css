@@ -1,0 +1,77 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-image: url("../img/2.jpg"); */
+    font-size: 14px;
+    padding-top: 5px;
+    /* background-color: pink; */
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*内容区=======================================================*/
+.music_content{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.music_content li{
+    list-style: none;
+}
+
+.music_content p,a{
+    line-height: 25px;
+    left: 5%;
+}
+
+.music_content a{
+    position: relative;
+    left: 5%;
+    color: #7d75ff;
+}
+.music_content a:hover{
+    color: #8aecc0;
+}
+
+/*music=======================================================*/
+.music_content img{
+    margin: 0;
+}
+.content h5{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.music_content ul{
+    padding: 10px;
+}
+
+.music_content .song{
+    margin: 0 0 10px 0;
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+.music_content .song a,p{
+    text-indent: 2em;
+}
+.music_content ul li img{
+    margin: 0px 50px 0px -30px !important;
+}
+
+.music_content ul li img:nth-last-child(2n+1){
+    margin-right: 60px;
+}
+.song::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
